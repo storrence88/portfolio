@@ -109,6 +109,18 @@ html, body {
   margin: auto;
 }
 
+#about {
+  padding-top: 35px;
+}
+
+/* #projects {
+  padding-top: 55px;
+}
+
+#blog {
+  padding-top: 75px;
+} */
+
 .social a {
   font-size: 4.5em;
   padding: 3rem;
@@ -165,8 +177,6 @@ hr.light {
   width: 95%;
 }
 
-
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
@@ -202,7 +212,6 @@ hr.light {
   
 }
 
-
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
@@ -211,6 +220,7 @@ hr.light {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
@@ -247,8 +257,6 @@ figure {
 
 
 
-
-
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
@@ -265,11 +273,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-

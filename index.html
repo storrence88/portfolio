@@ -7,13 +7,14 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="scroll.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">	<link href="style.css" rel="stylesheet">
 </head>
-<body>
+<body id="home">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <nav class="navbar navbar-expand-md navbar-light bg-light sicky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="img/color_logo_resized.png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -22,19 +23,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Connect</a>
+            <a class="nav-link" href="#connect">Connect</a>
           </li>
         </ul>
       </div>
@@ -57,8 +58,8 @@
         <div class="carousel-caption">
           <!-- <h1 class="display-2">Welcome to my portfolio!</h1> -->
           <!-- <h3>Complete Website Layout</h3> -->
-          <button type="button" class="btn btn-outline-light btn-lg">RESUME</button>
-          <button type="button" class="btn btn-primary btn-lg">GitHub</button>
+          <a href="https://drive.google.com/file/d/1aLTO45rlsQ9DASbnaqoh2SqKiSoRMTNB/view?usp=sharing" class="btn btn-outline-light btn-lg" target="_blank">RESUME</a>
+          <a href="https://github.com/storrence88" class="btn btn-primary btn-lg" target="_blank">GitHub</a>
         </div>
       </div>
       <div class="carousel-item">
@@ -86,7 +87,7 @@
   </div>
 
   <!--- Welcome Section -->
-  <div class="container-fluid padding">
+  <div id="about" class="container-fluid padding">
     <div class="row welcome text-center">
       <div class="col-12">
         <h1 class="display-5">Full Stack Developer</h1>
@@ -154,7 +155,7 @@
   </div>
   
   <!--- Project Description -->
-  <div class="container-fluid padding">
+  <div id="projects" class="container-fluid padding">
     <div class="row welcome text-center">
       <div class="col-12">
         <h1 class="display-4">Projects</h1>
@@ -216,7 +217,7 @@
   </figure>
 
   <!--- Blog -->
-  <div class="container-fluid padding">
+  <div id="blog" class="container-fluid padding">
     <div class="row padding">
       <div class="col-lg-6">
         <h2>"If you <strong>Blog</strong> it...they will come."</h2>
@@ -241,7 +242,7 @@
   <!--- Two Column Section -->
 
   <!--- Connect -->
-  <div class="container-fluid padding">
+  <div id="connect" class="container-fluid padding">
     <div class="row text-center padding">
       <div class="col-12">
         <h2>Connect</h2>
@@ -278,16 +279,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
